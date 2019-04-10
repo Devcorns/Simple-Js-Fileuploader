@@ -1,0 +1,28 @@
+.custom-file {
+    padding:2px;
+    margin-bottom:10px;
+    display: table;
+    width: 100%;
+}
+.custom-file *:not(.real-file){
+    display: table-cell;
+    min-height: 40px;
+    vertical-align: top;
+    padding: 0;
+    outline: none;
+    border: none;
+    border: 1px solid #ddd;
+}
+
+.custom-file input{
+    width:70%;
+    padding-left:10px;
+    padding-right:10px;
+}
+.custom-file button{
+    width:20%;
+}
+
+.custom-file:last-child {
+    margin-bottom:0;
+}
